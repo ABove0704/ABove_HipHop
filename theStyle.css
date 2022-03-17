@@ -1,0 +1,90 @@
+body {
+	background-color: lightslategray;
+	position: static;
+}
+
+main { 
+	background-color: lightskyblue; 
+	display: inline-flex;
+	margin: 1vw;
+	border: solid dimgray 5px;
+	border-radius: 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	background-color: yellow;
+	border-radius: 50px;
+	width: 450px;
+	height: 300px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 1em;
+}
+
+h1 {
+	background-color: lightslategray; 
+	display: flex;
+	margin: 0vw;
+	border: solid dimgray 0px;
+	border-radius: 0px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+p {
+	background-color: lightskyblue;
+	display: flex;
+	font-size: 50px;
+	border-radius: 50px;
+	float: center;
+	margin: 3vw;
+	border: solid dimgray;
+	align-items: left;
+	justify-content: right;
+	justify-content: space-around;
+}
+
+footer {
+	background-color: lightslategray;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+footer:hover{
+	background-color: lightskyblue;
+	display: flex;
+	color: dimgray;
+	padding: 0vw;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+footer button {
+	padding: 1vw;
+	display: flex;
+	background-color: lightskyblue;
+	border-radius: 50px;
+	margin: 4vw;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+button:hover {
+	display: flex;
+	background-color: greenyellow;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
